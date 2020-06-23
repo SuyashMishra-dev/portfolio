@@ -39,7 +39,6 @@
 
 .my-icon:hover {
   color: #3c5e9b !important;
-  /* font-size: 1.6rem !important; */
   box-shadow: 0px 3px #3c5e9b;
   color: #ebe3a0;
 }
@@ -60,7 +59,15 @@
 }
 
 .svg-margin {
-  margin: 0 0.8rem 0 10rem;
+  margin: 0 0.8rem 0 -3rem;
+}
+
+.python-small {
+  margin-right: 5rem !important;
+}
+
+.react-margin {
+  margin: 0 2.8rem !important;
 }
 
 .static-div {
@@ -80,9 +87,9 @@
 }
 
 .cursor {
-  width: 20px;
-  height: 20px;
-  background: #aaa;
+  width: 30px;
+  height: 30px;
+  background: #dae0f1;
   border-radius: 50%;
   position: absolute;
   transition: all 0.1s ease;
@@ -92,9 +99,9 @@
 
 .cursor::after {
   content: "";
-  width: 20px;
-  height: 20px;
-  border: 5px solid #3d3e3f;
+  width: 30px;
+  height: 30px;
+  border: 15px solid #eff1f7;
   border-radius: 50%;
   position: absolute;
   opacity: 0.5;
@@ -119,6 +126,22 @@
   }
 }
 
+@media only screen and (min-width: 1380px) {
+  .svg-margin {
+    margin-left: -8rem;
+  }
+  .my-card {
+    width: 24vw;
+  }
+  .react-margin {
+    margin: 0 4rem !important;
+  }
+
+  .python-small {
+    margin-left: -6rem !important;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .w-60 {
     width: 100vw !important;
@@ -128,8 +151,17 @@
   .svg-margin {
     margin: 0 1.5rem;
   }
+  .react-margin {
+    margin: 0 1.5rem !important;
+  }
   .my-card {
     width: 50vw;
+  }
+  .cv-btn {
+    margin-bottom: 0.3rem;
+  }
+  .python-small {
+    margin-right: 3rem !important;
   }
 }
 
@@ -143,6 +175,14 @@
     margin: 0 1.5rem;
   }
   .my-card {
-    width: 75vw;
+    width: 80vw;
+    padding: 0rem !important;
+  }
+  .cv-btn {
+    margin-bottom: 0.3rem;
+  }
+  .python-small {
+    margin-right: 0rem !important;
+    margin-right: 0 !important;
   }
 }

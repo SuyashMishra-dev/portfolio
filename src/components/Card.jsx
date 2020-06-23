@@ -15,14 +15,14 @@ export default function Card(props) {
           <p className="card-text poppins">{props.para}</p>
           <a
             href={props.linkSrc}
-            className="btn btn-primary nothingCall cv-btn mx-2"
+            className="btn btn-primary cv-btn mx-2"
             target="_blank"
           >
             Demo
           </a>
           <a
             href={props.gitSrc}
-            className="btn btn-primary nothingCall cv-btn"
+            className="btn btn-primary cv-btn"
             target="_blank"
           >
             Source Code

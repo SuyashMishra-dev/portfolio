@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="text-center container">
       <h2 className="text-muted mt-5 pt-3 nothingCall">Projects</h2>
-      <div className="row mt-5 px-5 justify-content-center">
+      <div className="row mt-5 ml-2 justify-content-center">
         <Card
           img="template.jpeg"
           title="Template"
@@ -15,7 +15,7 @@ const Projects = () => {
           gitSrc="https://github.com/SuyashMishra-dev/Template"
           arr={[
             "https://cdn.svgporn.com/logos/html-5.svg",
-            "https://cdn.svgporn.com/logos/css-3.svg"
+            "https://cdn.svgporn.com/logos/css-3.svg",
           ]}
         />
         <Card
@@ -28,7 +28,7 @@ const Projects = () => {
           arr={[
             "https://cdn.svgporn.com/logos/html-5.svg",
             "https://cdn.svgporn.com/logos/css-3.svg",
-            "https://cdn.svgporn.com/logos/bootstrap.svg"
+            "https://cdn.svgporn.com/logos/bootstrap.svg",
           ]}
         />
         <Card
@@ -42,7 +42,7 @@ const Projects = () => {
             "https://cdn.svgporn.com/logos/html-5.svg",
             "https://cdn.svgporn.com/logos/css-3.svg",
             "https://cdn.svgporn.com/logos/bootstrap.svg",
-            "https://cdn.svgporn.com/logos/javascript.svg"
+            "https://cdn.svgporn.com/logos/javascript.svg",
           ]}
         />
         <Card
@@ -56,7 +56,7 @@ const Projects = () => {
             "https://cdn.svgporn.com/logos/html-5.svg",
             "https://cdn.svgporn.com/logos/css-3.svg",
             "https://cdn.svgporn.com/logos/bootstrap.svg",
-            "https://cdn.svgporn.com/logos/javascript.svg"
+            "https://cdn.svgporn.com/logos/javascript.svg",
           ]}
         />
         <Card
@@ -71,21 +71,7 @@ const Projects = () => {
             "https://cdn.svgporn.com/logos/css-3.svg",
             "https://cdn.svgporn.com/logos/bootstrap.svg",
             "https://cdn.svgporn.com/logos/javascript.svg",
-            "https://cdn.svgporn.com/logos/react.svg"
-          ]}
-        />
-        <Card
-          img="restorent.jpeg"
-          title="Restaurant"
-          para="Welcome to my restaurant."
-          link="Click Here"
-          linkSrc="https://ninjacoderatmasai.netlify.com"
-          gitSrc="https://github.com/SuyashMishra-dev/masai-week-2-project"
-          arr={[
-            "https://cdn.svgporn.com/logos/html-5.svg",
-            "https://cdn.svgporn.com/logos/css-3.svg",
-            "https://cdn.svgporn.com/logos/bootstrap.svg",
-            "https://cdn.svgporn.com/logos/javascript.svg"
+            "https://cdn.svgporn.com/logos/react.svg",
           ]}
         />
         <Card
@@ -102,7 +88,7 @@ const Projects = () => {
             "https://cdn.svgporn.com/logos/javascript.svg",
             "https://cdn.svgporn.com/logos/react.svg",
             "https://cdn.svgporn.com/logos/react-router.svg",
-            "https://cdn.svgporn.com/logos/redux.svg"
+            "https://cdn.svgporn.com/logos/redux.svg",
           ]}
         />
         <Card
@@ -119,7 +105,7 @@ const Projects = () => {
             "https://cdn.svgporn.com/logos/javascript.svg",
             "https://cdn.svgporn.com/logos/react.svg",
             "https://cdn.svgporn.com/logos/react-router.svg",
-            "https://cdn.svgporn.com/logos/redux.svg"
+            "https://cdn.svgporn.com/logos/redux.svg",
           ]}
         />
         <Card
@@ -136,7 +122,25 @@ const Projects = () => {
             "https://cdn.svgporn.com/logos/javascript.svg",
             "https://cdn.svgporn.com/logos/react.svg",
             "https://cdn.svgporn.com/logos/react-router.svg",
-            "https://cdn.svgporn.com/logos/redux.svg"
+            "https://cdn.svgporn.com/logos/redux.svg",
+          ]}
+        />
+        <Card
+          img="hunger.png"
+          title="Hunger"
+          para="Feed the hungry and poor."
+          link="Click Here"
+          linkSrc="https://help-hunger.netlify.app/"
+          gitSrc="https://github.com/SuyashMishra-dev/Hunger_FrontEnd"
+          arr={[
+            "https://cdn.svgporn.com/logos/html-5.svg",
+            "https://cdn.svgporn.com/logos/css-3.svg",
+            "https://cdn.svgporn.com/logos/bootstrap.svg",
+            "https://cdn.svgporn.com/logos/javascript.svg",
+            "https://cdn.svgporn.com/logos/react.svg",
+            "https://cdn.svgporn.com/logos/redux.svg",
+            "https://cdn.svgporn.com/logos/nodejs.svg",
+            "https://cdn.svgporn.com/logos/express.svg",
           ]}
         />
         {/* <Card
